@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Danh mục truyện</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="label_btn_favorite">Yêu thích</string>
+    <string name="label_btn_continues">Đọc tiếp</string>
+    <string name="label_btn_info">Thông tin</string>
+    <string name="label_btn_rate">Cài đặt</string>
+    <string name="text_story">Truyện</string>
+    <string name="confirm_content">Bạn muốn xóa truyện khỏi \n danh sách yêu thích?</string>
+    <string name="confirm_no">Không</string>
+    <string name="confirm_yes">Có</string>
+    <string name="add_to_favorites">Thêm vào yêu thích!!</string>
+    <string name="remove_success">Xóa thành công</string>duong
+    <string name="type_trang">Truyện cười Trạng Quỳnh</string>
+    <string name="type_vova">Truyện cười Vova</string>
+    <string name="type_bom_nhau">Truyện cười Bợm nhậu</string>
+    <string name="type_nha_bin">Truyện cười nhà binh</string>
+    <string name="type_tieu_lam">Truyện Tiếu Lâm</string>
+    <string name="type_dan_gian">Truyện cười dân gian</string>
+    <string name="type_con_gai">Truyện cười con gái</string>
+    <string name="type_loai_vat">Truyện cười loài vật</string>
+    <string name="type_viet_nam">Truyện cười Việt Nam vô đối</string>
+    <string name="type_tinh_yeu">Truyện cười tình yêu</string>
+    <string name="type_muon_mau">Truyện cười muôn màu</string>
+    <string name="type_y_hoc">Truyện cười y học</string>
+    <string name="type_nguoi_lon">Truyện cười người lớn</string>
+    <string name="type_hoc_duong">Truyện cười học đường</string>
+    <string name="title_app">Danh mục truyện</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_favorite">Yêu thích</string>
+    <string name="drawer_continues">Đọc tiếp</string>
+    <string name="drawer_setting">Cài Đặt</string>
+    <string name="drawer_info">Thông tin</string>
+</resources>

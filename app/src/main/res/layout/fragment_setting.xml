@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8f1de"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_list"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đọc tự động:"
+                android:textColor="#627805"
+                android:textSize="25sp" />
+
+            <ToggleButton
+                android:id="@+id/toggle"
+                android:layout_width="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="35dp"
+                android:background="@drawable/toggle_selector"
+                android:textOff=""
+                android:textOn="" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtFont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phông chữ:"
+                android:textColor="#627805"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtFontSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn kích thước:"
+                android:textColor="#627805"
+                android:textSize="25sp" />
+
+            <NumberPicker
+                android:layout_alignParentRight="true"
+                android:id="@+id/numerPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8f1de"
+    android:padding="12dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_list"
+        android:padding="10dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Truyện cười (còn gọi là truyện tiếu lâm) là một lĩnh vực truyện kể dân gian rộng lớn, đa dạng, phức tạp bao gồm những hình thức được gọi bằng những danh từ khác nhau như truyện tiếu lâm, truyện khôi hài, truyện trào phúng, truyện trạng, giai thoại hài hước...
+
+Tiếng cười trong sinh học mang tính bản năng, vô thức phát ra do phản ứng của cơ thể một cách đơn thuần. Trong khi, tiếng cười tâm lý xã hội biểu thị thái độ, bộc lộ tư tưởng, tình cảm con người. Tiếng cười tâm lý xã hội có hai loại nhỏ: tiếng cười tán thưởng và tiếng cười phê phán.
+
+Tiếng cười tán thưởng biểu thị niềm vui, sự yêu mến. Tiếng cười phê phán biểu thị sự khinh ghét, sự phủ nhận.
+Tiếng cười phê phán là cái cười trong truyện cười. Cái cười phát ra từ cái đáng cười. Cái đáng cười chứa đựng cái hài hiểu theo nghĩa triết học, nghĩa là có mâu thuẫn bên trong. Ðó là mâu thuẫn giữa cái xấu và cái đẹp, giữa hình tượng và ý niệm, giữa sinh động và máy móc."
+                android:textSize="20sp"
+                android:textColor="#627805"/>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>

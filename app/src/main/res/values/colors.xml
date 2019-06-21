@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b71205</color>
+    <color name="colorPress">#81D4FA</color>
+    <color name="colorPrimaryDark">#b71205</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="whiteTranf">#E6ffffff</color>
+    <color name="textView.color.name_area">#000</color>
+</resources>
